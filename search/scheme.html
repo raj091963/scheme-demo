@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>MY_SCHEME</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="logo.jpg" type="image/jpg" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="./steper.min.css">
+      <link rel="stylesheet" href="./custom.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" > </script>
+      <!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+
+    <p class="h1 title">Finding
+        Govt. Scheme</p>
+
+    <div class="wrapper">
+        <form action="">
+            <div id="wizard">
+                <!-- SECTION 1 -->
+                <h4></h4>
+                <section>
+                    <h4 class="h4">Tell us about yourself, you are a...</h4>
+                    
+                        <div class="btn-group" role="group" aria-label="Geneder">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="btnradio1">Male</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio2">Female</label>
+                      
+                         </div>
+                      <h4 class="h4">and your age is</h4>
+                    
+                  
+                      <select id="age"  style="width:50%" class="form-select selectbox-full" aria-label="age">
+                        <h4 class="h4">years</h4>
+                      </select>
+                </section> <!-- SECTION 2 -->
+                <h4></h4>
+                <section>
+                    <h4 class="h4">Please select your state</h4>
+                    <select id="state" style="width:100%"  class="form-select selectbox-full form-select-lg mb-3" aria-label="age">
+                        <option value="gujarat">Gujarat</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">delhi</option>
+                    </select>
+                    <h4 class="h4">Please select your area of residence</h4>
+
+                    <div class="btn-group" role="group" aria-label="Residence">
+                        <input type="radio" class="btn-check" name="btnradio" id="residence-1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="residence-1">Urban</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio" id="residence-2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="residence-2">Rural</label>
+                  
+                     </div>
+                     
+                </section> <!-- SECTION 3 -->
+                <h4></h4>
+                <section>
+                    <h4 class="h4">You belong to...</h4>
+                    <div class="wrapper-1 list-wraper">
+                        
+                        <div class="btn-group" role="group" aria-label="cast">
+                            <input type="radio" class="btn-check" name="btnradio" id="cast-1" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="cast-1">General</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="cast-2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="cast-2">Other Backward Class (OBC)</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="cast-3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="cast-3">Particularly Vulnerable Tribal Group (PVTG)</label>
+                      
+                            <input type="radio" class="btn-check" name="btnradio" id="cast-4" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="cast-4">Scheduled Caste (SC)</label>
+                      
+                            <input type="radio" class="btn-check" name="btnradio" id="cast-5" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="cast-5">Scheduled Tribe (ST)</label>
+                      
+                         </div>
+                         
+                       </div>
+                   
+                </section> <!-- SECTION 4 -->
+                <h4></h4>
+                <section>
+                    <h4 class="h4">Are you differently abled?</h4>
+                    <div class="btn-group" role="group" aria-label="Residence">
+                        <input type="radio" class="btn-check" name="btnradio" id="abled-1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="abled-1">Yes</label>
+                      
+                        <input type="radio" class="btn-check" name="btnradio" id="abled-2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="abled-2">No</label>
+                    </div>
+
+                     
+                </section> <!-- SECTION 3 -->
+                <h4></h4>
+                <section>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                        <circle class="path circle" fill="none" stroke="#6200EA" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1" />
+                        <polyline class="path check" fill="none" stroke="#6200EA" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 " />
+                    </svg>
+                    <p class="success">Thank you </p>
+                </section>
+            </div>
+        </form>
+    </div>
+    </body>
+
+    <script>
+        $(function(){
+	$("#wizard").steps({
+        headerTag: "h4",
+        bodyTag: "section",
+        transitionEffect: "fade",
+        enableAllSteps: true,
+        transitionEffectSpeed: 500,
+        onStepChanging: function (event, currentIndex, newIndex) { 
+            if ( newIndex === 1 ) {
+                $('.steps ul').addClass('step-2');
+            } else {
+                $('.steps ul').removeClass('step-2');
+            }
+            if ( newIndex === 2 ) {
+                $('.steps ul').addClass('step-3');
+            } else {
+                $('.steps ul').removeClass('step-3');
+            }
+
+            if ( newIndex === 3 ) {
+                $('.steps ul').addClass('step-4');
+                $('.actions ul').addClass('step-last');
+            } else {
+                $('.steps ul').removeClass('step-4');
+                $('.actions ul').removeClass('step-last');
+            }
+            return true; 
+        },
+        labels: {
+            finish: "Start again",
+            next: "Next",
+            previous: "Previous"
+        }
+    });
+    // Custom Steps Jquery Steps
+    $('.wizard > .steps li a').click(function(){
+    	$(this).parent().addClass('checked');
+		$(this).parent().prevAll().addClass('checked');
+		$(this).parent().nextAll().removeClass('checked');
+    });
+    // Custom Button Jquery Steps
+    $('.forward').click(function(){
+    	$("#wizard").steps('next');
+    })
+    $('.backward').click(function(){
+        $("#wizard").steps('previous');
+    })
+    // Checkbox
+    $('.checkbox-circle label').click(function(){
+        $('.checkbox-circle label').removeClass('active');
+        $(this).addClass('active');
+    })
+
+    addOption()
+    // Age 
+    function addOption() {
+            optionText = 'Premium';
+            optionValue = 'premium';
+            for(i=1;i<200;i++){
+                $('#age').append(`<option value="${i}">
+                    ${i}
+                </option>`);
+            }
+  
+            
+        }
+})
+    </script>
+</html>

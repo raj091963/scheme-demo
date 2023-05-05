@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+    font-family: sans-serif;
+    background: url(../images/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size: 100%; */
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    position: fixed;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    perspective: 1000px;
+    border: 2px solid black;
+    margin-bottom: 250px; 
+}
+.innerbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.cardfront,.cardback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.cardback{
+    transform: rotateY(180deg);
+    padding-top: 0;
+}
+.card h2{
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 2px solid black;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: black;
+}
+::placeholder{
+    color: rgb(20, 6, 75);
+    font-size: 15px;
+}
+button{
+    width: 100%;
+    background: transparent;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.submit-btn{
+    position: relative;
+    width: 150px;
+    margin-right: 60px;
+    margin-left: 43px;
+    background-color: rgb(204, 11, 181);
+    color: #ffff;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.card .btn{
+    margin-top: 50px;
+    background-color: rgb(15, 6, 77);
+    color: #fff;
+    font-size: 17px;
+}
+.card a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: center;
+
+}
+h2{
+    color: rgb(204, 11, 181);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ckbox{
+    color: rgb(113, 191, 34);
+    margin-left:43px;
+}
+.card .btn2{
+    background-color: rgb(15, 6, 77);
+    font-size: 17px;
+    color: rgb(252, 252, 252);
+    margin-top: 20px;
+}
+.cardfront {
+    padding-top: 10px;
+}
+ .image{
+    padding-left: 67px;
+ }

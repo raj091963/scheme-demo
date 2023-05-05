@@ -1,0 +1,61 @@
+*{
+    margin: 0px 0px;
+    font-family: "Baloo 2",cursive;
+}
+header,img{
+    width: 103%;
+    margin-left: -38px;
+    z-index: -1;
+    overflow: none;
+}
+p{
+    margin: -225px -30px;
+    padding: 75px 70px;
+    color: white;
+    font-size: 50px;
+
+}
+.item-2{
+    border: 2px solid black;
+    margin: 225px auto;
+    width: 888px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 808px;
+    height: 110px;
+    margin: 40px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -2px -2px grey;
+}
+.header{
+    text-align: center;
+}
+.foot{
+   text-align:left;
+   display: inline-flex;
+   border: 2px solid blue;
+   color: blue;
+    border-radius: 4px;
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
